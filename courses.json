@@ -1,0 +1,20 @@
+[
+    {
+      "image": "https://almablog-media.s3.ap-south-1.amazonaws.com/MERN_Stack_9437df2ba9_c26d275382.png",
+      "title": "MERN Stack Crash Course",
+      "description": "Full stack web development",
+      "downloadLink": "https://www.udemy.com/topic/mern-stack/",
+      "videoLink": "https://www.youtube.com/watch?v=Vi9bxu-M-ag",
+      "category": "web development"
+    },
+
+    {
+      "image": "https://cdn-icons-png.flaticon.com/512/226/226777.png",
+      "title": "java full course",
+      "description": "Crash course of java",
+      "downloadLink": "https://www.freecodecamp.org/news/learn-java-free-java-courses-for-beginners/",
+      "videoLink": "https://www.google.com/search?q=java+full+course+download+link&rlz=1C1CHBF_enIN1126IN1126&oq=java+full+course+download+link&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjINCAQQABiGAxiABBiKBTINCAUQABiGAxiABBiKBTINCAYQABiGAxiABBiKBTINCAcQABiGAxiABBiKBTINCAgQABiGAxiABBiKBTIKCAkQABiABBiiBNIBCDczODZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:1851015d,vid:xTtL8E4LzTQ,st:0",
+      "category": "App development"
+    }
+  ]
+  
