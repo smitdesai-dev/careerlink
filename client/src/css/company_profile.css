@@ -1,0 +1,115 @@
+/* companyprofile.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+/* company css */
+#profile_top_container #date_phone_email{
+    width:100%;
+    height:25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* company css */
+#date_phone_email #date,#phone,#profile_email{
+    width:15vw;
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: #2D3343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.3vw;
+}
+
+
+#profilename_date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw 0;
+    gap: 18vw;
+}
+
+#profile_form_name,#profile_form_date{
+    display: flex;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #2D3343;
+    flex-direction: column;
+}
+
+#profile_form_name input,#profile_form_date input{
+    width: 25vw;
+    height: 2vw;
+    outline: none;
+    border: none;
+    border-radius: 0.2vw;
+    font-size:0.8vw;
+    font-weight: 500;
+    padding-left:0.5vw;
+}
+
+
+#city_state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+    gap: 18vw;
+}
+
+
+#company_profile_form_city,#company_profile_form_state{
+    display: flex;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #2D3343;
+    flex-direction: column;
+}
+
+#company_profile_form_city input,#company_profile_form_state input{
+    width: 25vw;
+    height: 2vw;
+    outline: none;
+    border: none;
+    border-radius: 0.2vw;
+    font-size:0.8vw;
+    font-weight: 500;
+    padding-left:0.5vw;
+}
+
+
+#profile_email_phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vw;
+    gap: 18vw;
+}
+
+#profile_form_email,#profile_form_email{
+    display: flex;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #2D3343;
+    flex-direction: column;
+}
+
+#profile_email_phone input,#profile_form_email input{
+    width: 25vw;
+    height: 2vw;
+    outline: none;
+    border: none;
+    border-radius: 0.2vw;
+    font-size:0.8vw;
+    font-weight: 500;
+    padding-left:0.5vw;
+}

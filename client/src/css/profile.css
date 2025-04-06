@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#profile-background{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-box{
+    width: 60vw;
+    border: 2px solid black;
+    border-radius: 1.5vw;
+    color:rgb(5, 72, 67);
+    display:flex;
+    overflow: hidden;
+}
+
+#profile-box #profile-left{
+    width: 35%;
+    /* background-color:#bab090; */
+    position:relative;
+}
+
+
+#profile-pic{
+    width:16.2vh;
+    height:16.2vh;
+    margin: 3vh auto;
+    border:3px solid black;
+    border-radius:50%;
+}
+
+#profile-pic img{
+    width:15.3vh;
+    height:15.3vh;
+    border-radius:50%;
+    border: 1px solid transparent;
+    margin: 0.1vh 0 0 0.1vh;
+    object-fit: cover;
+}
+
+#profile-edit{
+    position: absolute;
+    left:25.3vh;
+    top:14vh;
+    width: 3.5vh;
+    height: 3.5vh;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    background-color:rgb(255, 0, 89);
+}
+
+#profile-edit i{
+    color: whitesmoke;
+    font-size: 2vh;
+    margin:0 0 0 0.4vh;
+}
+
+
+#profile-box #profile-right{
+    /* width:60%; */
+    border-left: 0.3vh solid gray;
+    /* background-color:#F9D043; */
+}
+
+#profile-right #input-profile-box{
+    /* border: 1px solid black; */
+    width: 25vw;
+    margin: 2.5vh 0 0 3vh;
+    font-size: 1.2vw;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+}
+
+#input-profile-box input{
+    width: 20vw;
+    border: none;
+    outline: none;
+    color:rgb(5, 72, 67);
+    font-size: 1vw;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    margin: 0 0 0 1vh;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+#input-profile-box #bir-date{
+    border: none;
+    width: 8.5vw;
+}
+
+#input-profile-box #profile-file-img{
+    border: none;
+}
+
+#input-profile-box #profile-textarea{
+    margin-left: 1vw;
+}
+
+input[type="radio"] {
+    accent-color:rgb(5, 72, 67); 
+}
+
+#save-button{
+    width: 5vw;
+    height: auto;
+    padding: 0.6vw;
+    border: none;
+    border-radius: 1vh;
+    /* background-color:#045346; */
+    background-color:rgb(3, 58, 53);
+    /* background-color:#5D3ECC; */
+    font-size: 0.9vw;
+    color:#F9D043;
+    margin:3vh 0 3vh 3vh;
+}
+
+#save-button:hover{
+    background-color:#012F2C;
+}
+
+#message{
+    color: red;
+    font-size: 2vh;
+    font-weight: normal;
+    margin: 0.5vh 0 0 21vh;
+}
+
+#input-profile-box #profilt-pic-get{
+    border-bottom: none;
+}

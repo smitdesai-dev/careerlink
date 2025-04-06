@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+#post-form-background{
+    height: auto;
+    background-color: #F5F5F5;
+}
+
+/* 
+#form-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 1.5vw;
+    list-style-type: none;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+#form-nav li #form-menu{
+    color: #111112;
+    text-decoration: none;
+    position: relative;
+}
+
+#form-menu::after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 0.1vw;
+    width: 100%;
+    background-color: #607D8B;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+#form-menu:hover::after {
+    transform: scale(1);
+}
+
+#form-nav li #form-menu:hover {
+    color: #607D8B;
+} */
+
+#background-postjob{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#outer-box-postjob{
+    width:45vw;
+    height:auto;
+    /* background-color: rgba(13, 186, 175, 0.37); */
+    /* color:rgba(7, 79, 75, 0.912); */
+    color:#607D8B;
+    border-radius: 1vw;
+    /* border: 2px solid black; */
+    border: 2px solid #607D8B;
+    margin-top: 2.5vw;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+}
+
+#outer-box-postjob #postjob-title{
+    font-size: 2.1vw;
+    font-weight: 600;
+    text-align: center;
+    padding: 1.2vw;
+}
+
+
+#input-box-postjob{
+    width:fit-content;
+    margin: 1vw 0 0 2vw;
+    font-size: 1.05vw;
+    /* font-weight: 700; */
+    font-weight: 600;
+}
+
+#input-box-postjob input,select{
+    height: 1.5vw;
+    outline: none;
+    border: none;
+    border-bottom:2px solid #607D8B;
+    font-size: 1vw;
+    /* font-weight:500; */
+    font-weight:400;
+    background-color: transparent;
+    color:#607D8B;
+    margin: 0 0 0 0.5vw;
+    padding-left: 0.6vw;
+    cursor: pointer;
+}
+
+#input-box-postjob #input-logo-postjob{
+    border-bottom: none;
+}
+
+#input-box-postjob textarea{
+    width: 27vw;
+    height: 4vw;
+    font-size: 1vw;
+    font-weight: 500;
+    margin: 0 0 0 0.8vw;
+    cursor: pointer;
+}
+
+#post-button{
+    width: 6vw;
+    height: auto;
+    padding: 0.6vw;
+    border: none;
+    border-radius: 0.4vw;
+    background-color:#607D8B;
+    font-size: 1vw;
+    color:#fff;
+    margin:1.3vw 0 1.7vw 2vw;
+}
+
+#post-button:hover{
+    background-color: #DBDDDD;
+    color:#2C324A;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+#postjob-error{
+    font-size:0.9vw;
+    font-weight: 500;
+    margin: 0.4vw 0 0 2.1vw;
+    color: red;
+}

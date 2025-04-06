@@ -1,0 +1,210 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+#Authentication-header{
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw;
+    /* filter: blur(0.1vw); */
+}
+
+#Authentication-header #Authentication-logo{
+    /* font-size: 2.6vw; */
+    font-size: 2.4vw;
+    margin-left: 10vw;
+}
+
+#Authentication-career {
+    color: #607D8B;
+}
+
+#Authentication-link {
+    /* color: #F9D043; */
+    color: #B0BFC6;
+}
+
+
+#form-background{
+    /* height: 87vh; */
+    max-height: auto;
+    background-color: #F5F5F5;
+    position: relative;
+    /* filter: blur(0.1vw); */
+}
+
+#form-company_register_button {
+    border: none;
+    background-color: #607D8B;
+    color: #fff;
+    border-radius: 0.4vw;
+    /* font-size:1vw; */
+    font-size:0.9vw;
+    padding: 0.6vw;
+    position: relative;
+    cursor: pointer;
+    margin-right: 2vw;
+}
+
+#form-company_register_button:hover {
+    /* background-color: #F9D043; */
+    background-color: #DBDDDD;
+    color:#2C324A;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
+#form-box{
+    /* width: 100vw; */
+    height: 86vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: none;
+}
+
+#outer-box{
+    height:auto;
+    width: 33vw;
+    background-color:white;
+    border: 2px solid #607D8B ;
+    border-radius: 1vw;
+    color:#607D8B;
+    font-weight: 700;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+    position: relative;
+    z-index: 9;
+}
+
+#outer-box #signup-title{
+    font-size: 2.3vw;
+    font-weight: 700;
+    text-align: center;
+    margin: 1.5vw 0 2vw 0vw;
+}
+
+#input-box{
+    position: relative;
+    z-index: 0;
+}
+
+#input-box i{
+    margin: 1vw 0 0 3vw;
+    padding: 1vw 0 0 0;
+    font-size: 1.3vw;
+}
+
+#input-box input{
+    width: 20vw;
+    height: 1vw;
+    color:#607D8B;
+    background-color:transparent;
+    margin:0 0 0 0.6vw;
+    padding: 1vw;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #607D8B;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#input-box span{
+    font-size: 1.01vw;
+    font-weight: 600;
+    position: absolute;
+    left:5.3vw;
+    top:0.2vw;
+    z-index:-1;
+}
+
+#input-box input:focus~span,
+#input-box input:valid~span
+{
+    left:5vw;
+    color: #90A4AD;
+    transform: translateY(-90%) scale(0.8,0.8);
+    transition: all 0.3s linear;
+}
+
+#submit-button{
+    width: 5.5vw;
+    height: auto;
+    padding: 0.4vw 0.6vw;
+    border: none;
+    border-radius: 0.4vw;
+    background-color:#607D8B;
+    font-size: 1vw;
+    font-weight: 600;
+    color:#fff;
+    margin:0 0 1vw 3vw;
+}
+
+#submit-button:hover{
+    background-color: #DBDDDD;
+    color:#2C324A;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
+#login-link{
+    margin: 0 0 2vw 3vw;
+    font-size: 1.04vw;
+}
+
+#error{
+    font-size:0.9vw;
+    margin: 0 0 2vw 4.8vw;
+    color: rgb(213, 4, 4);
+    font-weight: 600;
+}
+
+#login-link a{
+    text-decoration: none;
+    color:#1265b8;
+}
+#login-link a:hover{
+    text-decoration: none;
+    color:#3193f6;
+}
+
+
+.loader {
+    border: 0.33vw solid transparent;
+    border-radius: 50%;
+    border-top: 0.33vw solid #181818;
+    border-bottom: 0.33vw solid #181818;
+    width: 3.4vw;
+    height: 3.4vw;
+    position: absolute;
+    top:50vh;
+    left: 50vw;
+    z-index: 10;
+    opacity: 0;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */
+}
+
+.loader.show {
+    opacity: 1; /* Show loader */
+}
+  
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+#jobdetail_background{
+    width:100%;
+    height:100vh;
+    background-color: #F5F5F5;
+}
+
+#job_detail_img_container{
+    /* width:100%; */
+    height:auto;
+    padding: 2vw;
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: #F5F5F5;
+    display:flow-root;
+}
+    
+#jobdetail-company-logo{
+    width: 20vw;
+    height: 20vw;
+    object-fit: contain;
+    background-color: burlywood;
+    background-color: #F5F5F5;
+    float: right;
+}
+
+#job_detail_container{
+    height: auto;
+    font-size: 1.2vw;
+    
+}
+
+#company_title_detail{
+    font-size: 2.8vw;
+    color:#566f7b;
+}
+
+#position_detail,#location_detail,#job_type_detail,#salary_detail{
+    font-size: 1.1vw;
+    margin: 0.7vw 0;
+}
+
+#job_description_detail,#requirements_detail,#company_description_detail{
+    /* width: 65vw; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* background-color: crimson; */
+    margin: 1vw 0;
+}
+#position_detail strong,#location_detail strong,#job_type_detail strong,#salary_detail strong,#job_description_detail strong,#requirements_detail strong,#company_description_detail strong{
+    font-size: 1.3vw;
+    margin-bottom: 0.5vw;
+    color:#566f7b;
+}
+#position_detail label,#location_detail label,#job_type_detail label,#salary_detail label,#job_description_detail label,#requirements_detail label,#company_description_detail label{
+    font-size: 1.06vw;
+    /* color:#566f7b; */
+    font-weight: 400;
+}
+
+#job_apply_button{
+    border-radius: 0.3vw;
+    border: none;
+    outline: none;
+    background-color: #B0BFC6;
+    color: #fff;
+    font-size: 1vw;
+    font-weight: 600;
+    padding: 0.6vw 1.5vw;
+    margin-top: 1.8vw;
+}
+
+#job_apply_button:hover {
+    background-color: #DBDDDD;
+    color:#2C324A;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}

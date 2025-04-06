@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+#admin-main {
+  height: auto;
+  width: auto;
+  background-color: #f5f5f5;
+  display: flex;
+}
+
+#left_dashboard {
+  width: auto;
+  height: 100vh;
+  background-color: #607d8b;
+  padding: 1.2vw 2.2vw;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#Admin-company-logo {
+  /* font-size: 2.6vw; */
+  font-size: 2.4vw;
+  margin-bottom: 1.5vw;
+}
+
+#Admin-menu {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  gap: 1.5vw;
+  margin: 3vw 0 0 1.25vw;
+  /* font-size: 1.1vw; */
+  font-size: 1.1vw;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#Admin-menu i {
+  font-size: 1.2vw;
+  margin-right: 0.5vw;
+}
+
+#right_dashboard {
+  height: auto;
+  width: auto;
+  padding: 2vw;
+  background-color: #f5f5f5;
+}
+
+#search-box-Admin {
+  width: 40vw;
+  border: 1px solid #dadada;
+  border-radius: 0.5vw;
+  background-color: #fbf7f0;
+  padding: 0.56vw 0.5vw;
+  position: sticky;
+  left: 18.3vw;
+}
+
+#search-bar-Admin {
+  width: 36vw;
+  padding-left: 0.5vw;
+  /* font-size: 1.15vw; */
+  font-size: 1vw;
+  color: #757575;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+#search-box-Admin button {
+  font-size: 1.3vw;
+  color: #757575;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#Admin-table table {
+  width: 115vw;
+  height: auto;
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.174);
+  margin-top: 2.8vw;
+}
+
+#Admin-table table,
+td,
+th {
+  padding: 1vw;
+  border: 2px solid #dadada;
+  border-collapse: collapse;
+}
+#Admin-table th {
+  /* font-size: 1.1vw; */
+  font-size: 1vw;
+}
+#Admin-table tr {
+  /* font-size: 1vw; */
+  font-size: 0.9vw;
+}
+
+#Admin-accept-button {
+  width: 4.4vw;
+  padding: 0.3vw;
+  /* font-size: 0.9vw; */
+  font-size: 0.86vw;
+  background-color: #1bc98a;
+  border: none;
+  border-radius: 0.4vw;
+  color: white;
+}
+#Admin-accept-button:hover {
+  background-color: #18b179;
+  transform: scale(1.1);
+  transition: all 0.4s ease;
+}
+
+#Admin-reject-button {
+  width: 4.4vw;
+  padding: 0.3vw;
+  font-size: 0.9vw;
+  font-size: 0.86vw;
+  background-color: #e44a3c;
+  border: none;
+  border-radius: 0.4vh;
+  color: white;
+}
+#Admin-reject-button:hover {
+  background-color: #c13c30;
+  transform: scale(1.1);
+  transition: all 0.4s ease;
+}

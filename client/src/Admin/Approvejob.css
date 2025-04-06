@@ -1,0 +1,25 @@
+#table-title {
+  font-size: 2.3vw;
+}
+
+#Approved-Reject-job-table table {
+  width: 60vw;
+  height: auto;
+  box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.174);
+  margin-top: 2.5vw;
+}
+#Approved-Reject-job-table table,
+td,
+th {
+  padding: 1vw;
+  text-align: center;
+  border: 2px solid #dadada;
+  border-collapse: collapse;
+}
+#Approved-Reject-job-table th,
+tr {
+  font-size: 1.1vw;
+}
+#Approved-Reject-job-table tr {
+  font-size: 1vw;
+}

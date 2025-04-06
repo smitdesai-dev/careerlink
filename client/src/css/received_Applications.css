@@ -1,0 +1,34 @@
+#received_backgrund{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F5F5;
+    padding: 2vw 0 0 1vw;
+}
+
+#received-title {
+    font-size: 2.3vw;
+}
+
+#received_application_table table {
+    width:90vw;
+    height: auto;
+    box-shadow: 1px 1px 10px 3px rgba(0, 0, 0, 0.174);
+    /* margin: auto; */
+    margin: 2.5vw 4vw;
+}
+
+#received_application_table table,td,th {
+    padding: 1vw;
+    text-align: center;
+    border: 2px solid #dadada;
+    border-collapse: collapse;
+}
+
+#received_application_table th,tr {
+    font-size: 1.1vw;
+}
+
+#received_application_table tr {
+    font-size: 1vw;
+}
+  

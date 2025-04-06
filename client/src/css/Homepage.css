@@ -1,0 +1,332 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+#header {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: #F5F5F5;
+    background-color: #6c8c9c;
+}
+
+#nav {
+    height: auto;
+    width: 100%;
+}
+
+#logo-search-button {
+    /* font-size: 2.6vw; */
+    font-size: 2.4vw;
+    /* margin: 0 0 0 10vw; */
+    margin: 0 0 0 9vw;
+    padding-top: 0.6vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#career {
+    /* color: #045346; */
+    color: #607D8B;
+    color: #F5F5F5;
+}
+
+#link {
+    /* color: #F9D043; */
+    color: #B0BFC6;
+}
+
+#search-box{
+    width:50vw;
+    height: 2.7vw;
+    border: 1px solid #dadada;
+    border-radius: 0.7vw;
+    background-color: #FBF7F0;
+    position: relative;
+    position: absolute;
+    left:15vw;
+    top:1.2vw;
+}
+
+
+#search-bar{
+    position: absolute;
+    left:2.1vw;
+    width:46vw;
+    height: 2.7vw;
+    padding-left:0.5vw;
+    font-size: 1vw; 
+    color: #757575;
+    outline: none;
+    border: none;
+    background-color:transparent;
+    /* background-color:rgb(210, 148, 148); */
+
+}
+
+#logo-search-button button{
+    position:absolute;
+    left:0.6vw;
+    top:0.5vw;
+    top:0.3vw;
+    font-size: 1.3vw;
+    color: #757575;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#filter-icon{
+    font-size: 1vw;
+    color: white;
+    position: absolute;
+    right:22.5vw;
+    top:1.7vw;
+}
+#filter-icon i{
+    font-size: 1.6vw;
+    color: #E0E0E0;
+    cursor: pointer;
+}
+
+#company_register_button {
+    position: absolute;
+    left: 59vw;
+    top:0.2vw;
+    width:auto;
+    height:auto;
+    border: none;
+    /* background-color: #607D8B; */
+    background-color: #B0BFC6;
+    color: #fff;
+    border-radius: 0.4vw;
+    /* font-size:1vw; */
+    font-size:0.9vw;
+    padding: 0.6vw;
+    position: relative;
+    cursor: pointer;
+}
+
+#company_register_button:hover {
+    /* background-color: #B0BFC6; */
+    background-color: #DBDDDD;
+    color:#2C324A;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
+#profile-img{
+    position: absolute;
+    right:3.5vw;
+    top: 1.1vw;
+    width: 2.7vw;
+    height: 2.73vw;
+    border:0.2vw solid #111;
+    border-radius:3vh;
+    margin:2px 2px 0 1.2px;
+}
+
+#profile:hover{
+    background-color: #012F2C;
+}
+
+
+#nav-element {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2vw 0 0vw 0;
+    padding: 0 0 1vw 0;
+    list-style-type: none;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#nav-element li #menu {
+    color: #F5F5F5;
+    text-decoration: none;
+    position: relative;
+}
+
+
+#menu::after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 0.1vw;
+    width: 100%;
+    background-color: #B0BFC6;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+#menu:hover::after {
+    transform: scale(1);
+}
+
+#nav-element li #menu:hover {
+    /* color: #607D8B; */
+    color: #B0BFC6;
+}
+
+
+#Homepage-main {
+    height: auto;
+    width: auto;
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+#left {
+    width: 0;
+    height: 82.1vh;
+    background-color: white;
+    position: sticky;
+    left: 0;
+    top: 8.45vw;
+    padding: 1vw 0 0 0;
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+
+#filter-title {
+    /* font-size: 1.4vw; */
+    /* font-weight: 900; */
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin: 0.5vw 0 0 1.5vw;
+}
+
+#filter-title i{
+    margin: 0 0 0 0.2vw;
+}
+
+#filte_close{
+    margin: 0.5vw 0 0 11vw;
+    font-size: 1.6vw;
+    cursor: pointer;
+}
+
+#filter-salary , #filter-job-type{
+    display: flex;
+    flex-direction: column;
+    /* margin: 1vw 0 0 1.5vw; */
+    /* font-size: 1.12vw; */
+    margin: 1vw 0 0 1.5vw;
+    font-size: 1.05vw;
+    gap: 0.6vw;
+}
+
+#filter-salary span ,#filter-job-type span{
+    /* font-size: 1.25vw; */
+    /* font-weight: 700; */
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin: 1vw 0 0.3vw 0;
+}
+#salary-type input ,#filter-job-type input{
+    margin: 0 0.5vw 0 2.4vw;
+}
+
+input[type="checkbox"] {
+    width: 0.88vw;
+    height: 0.88vw;
+    accent-color:#607D8B; 
+}
+
+
+#right{
+    /* width: 80%; */
+    width: 100%;
+    height: auto;
+    /* background-color: #012F2C; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 27vw;                 
+    column-gap:2vw;
+    row-gap: 2vw;
+    padding: 2vw;
+    transition: width 0.5s linear;
+}
+
+#post_card{
+    width:22.3vw;
+    height:27vw;
+    background-color: #E0E0E0;
+    border-radius:0.6vw;
+    padding: 1.3vw;
+}
+
+#post_card:hover{
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.641);
+    transform: translateY(-1vh)  scale(1.02);
+    transition: all 0.3s ease;
+}
+
+#postcard-logo-name-container{
+    width: auto;
+    height: 5.5vw;
+    /* background-color: #607D8B; */
+    display: flex;
+}
+#postcard-logo-name-container #postcard-company-logo{
+    width:5.5vw;
+    height:5.5vw;
+    object-fit: contain;
+    border: 2px solid #6c8c9c;
+    border-radius: 0.5vw;
+    background-color: white;
+}
+
+#company-name-position{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+#company-name{
+    font-size: 1.6vw;
+    font-weight: 600;
+}
+
+#company-position{
+    padding: 0.1vw 0;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+
+#company-description{
+    font-size: 1.1vw;
+    font-weight: 600;
+    margin-top: 1.3vw;
+}
+
+#postcard-description-text{
+    width: 21vw;
+    height: 9.6vw;
+    margin-top: 0.4vw;
+    font-size: 0.9vw;
+}
+
+
+#company-location,#company-job-type,#company-salary{
+    margin-top: 0.5vw;
+}
+#company-location label,#company-job-type label,#company-salary label{
+    font-size: 1vw;
+    font-weight: 600;
+}
+#company-location span,#company-job-type span,#company-salary span{
+    font-size: 0.9vw;
+    margin-left: 0.2vw;
+}

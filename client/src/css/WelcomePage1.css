@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+#welcomepage{
+    width: 100%;
+    height: 99.9vh;
+}
+
+#black-background{
+    width: 100%;
+    height: 99.9vh;
+    box-shadow: 2vh 2vh 9vh 50vh rgba(0, 0, 0, 0.745) inset;
+    position: relative;
+    z-index: 1;
+}
+
+
+#welcomepage-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw;
+}
+
+#welcomepage-header #welcomepage-logo{
+    /* font-size: 2.6vw; */
+    font-size: 2.4vw;
+    margin-left: 10vw;
+}
+
+#welcomepage-header #welcomepage-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap:4.5vw;
+    margin-right: 2vw;
+}
+#welcomepage-nav #welcomepage-nav-element{
+    text-decoration: none;
+    color: #F5F5F5;
+    /* font-weight: 600;
+    font-size: 1.1vw; */
+    font-weight: 500;
+    font-size: 1vw;
+    position: relative;
+}
+
+#welcomepage-nav-element::after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 0.1vw;
+    width: 100%;
+    background-color: #B0BFC6;
+    transform: scale(0);
+    transform-origin: left;
+    transition: transform 0.5s ease;
+}
+
+#welcomepage-nav-element:hover::after {
+    transform: scale(1);
+}
+
+#welcomepage-nav li #welcomepage-nav-element:hover {
+    color: #B0BFC6;
+}
+
+#welcome_company_register_button{
+    width:auto;
+    height:auto;
+    border: none;
+    background-color: #607D8B;
+    color: white;
+    border-radius: 0.4vw;
+    /* font-size:1vw;
+    padding: 0.7vw; */
+    font-size:0.9vw;
+    padding: 0.6vw;
+    cursor: pointer;
+}
+
+#welcome_company_register_button:hover {
+    background-color: #B0BFC6;
+    background-color: #DBDDDD;
+    color:#2C324A;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
+#welcome-span{
+    color:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13vw;
+}
+
+#welcome-span span{
+    font-family: "Great Vibes";
+    font-size:5.4vw;
+}
+#welcome-span label{
+    font-family: "Great Vibes";
+    font-size:2vw;
+}
+
+#welcome-nav-element{
+    font-size: 1vw;
+    display: flex;
+    gap: 1vw;
+    margin: 0.5vw auto;
+}
+
+#welcome-nav-element #welcome-menu{
+   width: 5vw;
+   height: auto;
+   background-color: #607D8B;
+   color: #fff;
+   padding: 0.25vw;
+   border: none;
+   border-radius: 0.4vw;
+   text-align: center;
+   text-decoration: none;
+}
+
+#welcome-nav-element #welcome-menu:hover{
+    background-color: #B0BFC6;
+    background-color: #DBDDDD;
+    color:#2C324A;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
+#welcome-background{
+    width: 100%;
+    height: 99.9vh;
+    object-fit:cover;
+    position: absolute;
+    top:0;
+}
+

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fjalla+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#apply-box{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #F9D043; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+#apply-outer-box{
+    /* min-height: 30vw; */
+    width:40vw;
+    height:auto;
+    /* background-color: #0f615e; */
+    /* color:rgba(7, 79, 75, 0.912); */
+    color:#607D8B;
+    font-weight: 700;
+    /* border:2px solid black; */
+    border:2px solid #607D8B;
+    border-radius: 1.5vw;
+    display: flex;
+    justify-content:right;
+    flex-direction: column;
+    font-family:'Roboto';
+}
+
+#apply-outer-box #apply-title{
+    font-size: 1.9vw;
+    font-weight:700;
+    text-align: center;
+    margin: 0.7vw 0 0.3vw 0;
+}
+
+#apply-input-box {
+    margin: 0 0 1vw 3.8vw;
+}
+#apply-input-box #birthdate{
+    border: none;
+    width: 10vw;
+}
+
+#apply-input-box input,select{
+    height: 1.5vw;
+    outline: none;
+    border: none;
+    width: 17vw;
+    padding-left: 1vw;
+    /* border-bottom:2px solid black; */
+    border-bottom:2px solid #607D8B;
+    font-size:1.1vw;
+    font-weight: 400;
+    background-color: transparent;
+    /* color:rgb(5, 72, 67); */
+    color:#607D8B;
+    margin: 0.5vw 0 0 0.8vw;
+    cursor: pointer;
+    font-family:'Roboto';
+}
+
+#apply-input-box #addbutton{
+    width: 4vw;
+    padding: 0.3vw;
+    border: none;
+    border-radius:1vh;
+    margin: 0 0 0 0.6vw;
+    font-weight: 600;
+    /* color:#F9D043; */
+    /* background-color:rgb(3, 58, 53); */
+    background-color:#607D8B;
+    color:#fff;
+}
+
+#apply-input-box #addbutton:hover{
+    /* background-color:#012F2C; */
+    background-color:#B0BFC6;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}
+
+#apply-input-box #input-file{
+    border-bottom: none;
+}
+
+#apply-error{
+    color:red;
+    font-size:0.9vw;
+    margin: 0 0 1vw 0vw;
+}
+
+#apply-submit-button{
+    width: 5vw;
+    padding: 0.6vw;
+    border: none;
+    border-radius:1vh;
+    font-weight: 600;
+    /* margin: 0 0 0 0.6vw; */
+    margin:0 0 1.2vw  3.8vw;
+    /* color:#F9D043;
+    background-color:rgb(3, 58, 53); */
+    background-color:#607D8B;
+    color:#fff;
+}
+
+#apply-submit-button:hover{
+    /* background-color:#012F2C; */
+     background-color:#B0BFC6;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
+}

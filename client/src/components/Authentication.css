@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Authentication-header {
+  width: 100%;
+  background-color: #6c8c9c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5vw;
+}
+
+#Authentication-header #Authentication-logo {
+  font-size: 2.6vw;
+  margin-left: 10vw;
+}
+
+#Authentication-logo #Authentication-career {
+  color: #607d8b;
+}
+
+#Authentication-link {
+  /* color: #F9D043; */
+  color: #b0bfc6;
+}
+#Authentication-company_register_button {
+  border: none;
+  /* background-color: #fdd759; */
+  background-color: #607d8b;
+  /* color: black; */
+  color: #fff;
+  border-radius: 0.4vw;
+  font-size: 1vw;
+  font-weight: 500;
+  padding: 1.5vh;
+  font-family: "Roboto";
+  position: relative;
+  cursor: pointer;
+}
+
+#Authentication-company_register_button:hover {
+  /* background-color: #F9D043; */
+  background-color: #dbdddd;
+  color: #2c324a;
+  transform: scale(1.1);
+  transition: all 0.4s ease;
+}
